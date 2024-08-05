@@ -1,0 +1,6 @@
+cert.pem
+fullchaine.pem
+privkey.pem
+.terraform
+*.tfstate
+*.tfstate.backup
