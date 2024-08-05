@@ -34,9 +34,9 @@ To run this project, you will need:
 2. **Configure your API keys:**
 
 Create a terraform.tfvars file in the root of the repository and add your API keys:
-digitalocean_token = "your_digitalocean_api_key"
-aws_access_key     = "your_aws_access_key"
-aws_secret_key     = "your_aws_secret_key"
+- digitalocean_token = "your_digitalocean_api_key"
+- aws_access_key     = "your_aws_access_key"
+- aws_secret_key     = "your_aws_secret_key"
 
 
 3. **Initialize Terraform:**
@@ -52,16 +52,20 @@ Review the planned actions and confirm by typing yes.
 
 **Project Structure:**
 
-. `main.tf` : Main Terraform configuration file
-. `variables.tf` : Variable definitions
-. `outputs.tf` : Output definitions
-. `terraform.tfvars` : File for storing sensitive information (not included in version control)
+- `main.tf` : Main Terraform configuration file
+
+- `variables.tf` : Variable definitions
+
+- `outputs.tf` : Output definitions
+
+- `terraform.tfvars` : File for storing sensitive information (not included in version control)
 
 
 **Notes:**
 
-. Ensure your API keys are kept secure and not included in version control.
-. Modify the Terraform configuration as needed to suit your requirements.
+- Ensure your API keys are kept secure and not included in version control.
+
+- Modify the Terraform configuration as needed to suit your requirements.
 
 **Contributing:**
 
