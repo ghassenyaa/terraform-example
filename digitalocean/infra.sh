@@ -1,4 +1,5 @@
 #!/bin/bash
+echo 'lets start'
 
 set -o xtrace
 
