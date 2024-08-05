@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo 'lets start'
 set -o xtrace
 
 terraform apply --auto-approve
